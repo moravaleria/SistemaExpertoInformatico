@@ -1,0 +1,8 @@
+{
+  "hechos": {
+    "mensaje_no_boot_device": true,
+    "disco_detectado_bios": true,
+    "disco_no_detectado_bios": false,
+    "ruidos_clic_disco": false
+  }
+}

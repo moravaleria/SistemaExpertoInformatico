@@ -1,0 +1,5 @@
+# Caso 1: el equipo no enciende (cadena de 3 niveles: sintomas -> sin_energia -> falla_fuente_poder -> recomendacion)
+no_enciende
+sin_luces_ni_ventiladores
+cable_alimentacion_ok
+toma_con_corriente

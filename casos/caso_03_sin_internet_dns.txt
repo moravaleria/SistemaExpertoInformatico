@@ -1,0 +1,5 @@
+# Caso 3: red local y salida a Internet bien, pero no resuelve nombres
+sin_internet
+ping_gateway_ok
+ping_8888_ok
+dns_falla
