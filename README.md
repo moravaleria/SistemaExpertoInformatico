@@ -1,6 +1,10 @@
 # Sistema Experto de Diagnóstico de Fallas Informáticas
 
 Sistema experto basado en reglas con encadenamiento hacia adelante, construido a partir del motor de inferencia. Diagnostica problemas de computadores (energía, memoria, video, disco, malware, sobrecalentamiento, drivers y red) y entrega una recomendación con su cadena de razonamiento.
+# Documento
+
+[Documento técnico Sistema experto de diagnóstico de fallas informáticas.pdf](https://github.com/user-attachments/files/33769006/Documento.tecnico.Sistema.experto.de.diagnostico.de.fallas.informaticas.pdf)
+
 
 
 ## Qué hace (requisitos del taller)
