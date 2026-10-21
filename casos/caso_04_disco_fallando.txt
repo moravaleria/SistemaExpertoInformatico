@@ -1,0 +1,5 @@
+# Caso 4: lentitud por disco con falla fisica (cadena: cuello_botella_disco -> falla_disco_fisico -> recomendacion)
+equipo_lento
+disco_uso_100
+ruidos_clic_disco
+disco_es_hdd

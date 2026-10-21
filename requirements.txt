@@ -1,0 +1,2 @@
+# Sin dependencias externas: solo biblioteca estándar de Python 3.9+
+# (Tkinter viene con Python; en Linux: sudo apt install python3-tk)

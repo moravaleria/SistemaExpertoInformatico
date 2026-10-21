@@ -1,0 +1,4 @@
+# Caso 5: apagados por temperatura
+apagados_aleatorios
+temperatura_alta
+polvo_en_ventilador

@@ -1,0 +1,2 @@
+# Caso 6: informacion insuficiente -> el sistema no emite recomendacion
+pantalla_negra
