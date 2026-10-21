@@ -1,28 +1,17 @@
 # Sistema Experto de Diagnóstico de Fallas Informáticas
 
-Sistema experto basado en reglas con **encadenamiento hacia adelante**, construido a partir del motor de inferencia
-`sistExpMotorInf2026` (versión del 11 de mayo de 2026). Diagnostica problemas de computadores (energía, memoria, video,
-disco, malware, sobrecalentamiento, drivers y red) y entrega una **recomendación** con su cadena de razonamiento.
+Sistema experto basado en reglas con encadenamiento hacia adelante, construido a partir del motor de inferencia. Diagnostica problemas de computadores (energía, memoria, video, disco, malware, sobrecalentamiento, drivers y red) y entrega una recomendación con su cadena de razonamiento.
 
-## Integrantes
-
-| Nombre | Código / Documento | Correo |
-|--------|--------------------|--------|
-| _Nombre 1_ | _…_ | _…_ |
-| _Nombre 2_ | _…_ | _…_ |
-
-Curso: _Sistemas Inteligentes_ · Docente: _…_ · Universidad: _…_
 
 ## Qué hace (requisitos del taller)
 
-| Requisito | Dónde se cumple |
-|-----------|-----------------|
-| Base de conocimiento desde archivo externo | `conocimiento/base_conocimiento_informatica.json` (formato JSON, ver más abajo) |
-| Estrategia de resolución de conflictos con referentes | Sección *Estrategia de resolución de conflictos* y `sistema_experto/motor.py` |
-| Hechos iniciales desde archivo o por interacción | `.txt`/`.json` en `casos/`, preguntas por consola (`--interactivo`) o casillas en la GUI |
-| Interfaz simple, resultados paso a paso | GUI en Tkinter (botón *Siguiente paso*) y CLI (`--paso-a-paso`) |
-| Recomendación del sistema experto | Panel «Recomendación» / sección final de la CLI, con cadena de razonamiento |
-| Caso de informática, ≥ 15 reglas, con encadenamiento | **39 reglas**, cadenas de hasta **3 niveles** (síntoma → intermedio → diagnóstico → recomendación) |
+
+Base de conocimiento desde archivo externo  `conocimiento/base_conocimiento_informatica.json` (formato JSON, ver más abajo) 
+Estrategia de resolución de conflictos con referentes Sección *Estrategia de resolución de conflictos* y `sistema_experto/motor.py` 
+ Hechos iniciales desde archivo o por interacción  `.txt`/`.json` en `casos/`, preguntas por consola (`--interactivo`) o casillas en la GUI 
+Interfaz simple, resultados paso a paso GUI en Tkinter (botón *Siguiente paso*) y CLI (`--paso-a-paso`) 
+Recomendación del sistema experto  Panel «Recomendación» / sección final de la CLI, con cadena de razonamiento 
+Caso de informática, ≥ 15 reglas, con encadenamiento **39 reglas**, cadenas de hasta **3 niveles** (síntoma → intermedio → diagnóstico → recomendación)
 
 ## Instalación y dependencias
 
